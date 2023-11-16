@@ -1,0 +1,374 @@
+\documentclass[10pt]{article}
+\usepackage[a4paper,bottom = 0.6in,left = 0.75in,right = 0.75in,top = 1cm]{geometry}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{wrapfig}
+\usepackage{microtype}
+\usepackage{titlesec}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{url}
+\usepackage{enumitem}
+\usepackage{palatino}
+\usepackage{tabularx}
+\fontfamily{SansSerif}
+\usepackage{fontawesome5}
+\usepackage[hidelinks]{hyperref}
+\usepackage{textcomp}
+\usepackage{verbatim}
+\usepackage{makecell}
+\usepackage{pbox}
+
+%for color
+\usepackage[usenames, dvipsnames]{color}
+\definecolor{myblue}{RGB}{10,0,254}
+
+% Adjusting the margins
+\enlargethispage{2\baselineskip} % you can adjust the number based on your content's fit in the page
+
+\newcommand{\xfilll}[2][1ex]{
+\dimen0=#2\advance\dimen0 by #1
+\leaders\hrule height \dimen0 depth -#1\hfill}
+\titleformat{\section}{\large\scshape\raggedright}{}{0em}{}
+\renewcommand\labelitemi{\raisebox{0.4ex}{\tiny$\bullet$}}
+\renewcommand{\labelitemii}{$\cdot$}
+\pagenumbering{gobble}
+
+
+\usepackage[T1]{fontenc}
+\usepackage
+%[ansinew]
+[utf8]
+{inputenc}
+
+\usepackage{color}
+\definecolor{mygrey}{gray}{0.99}
+\textheight=10in
+\raggedbottom
+
+\setlength{\tabcolsep}{0in}
+\newcommand{\isep}{-2 pt}
+\newcommand{\lsep}{-0.5cm}
+\newcommand{\psep}{-0.6cm}
+\renewcommand{\labelitemii}{$\circ$}
+
+\pagestyle{empty}
+%-----------------------------------------------------------
+%Custom commands
+\newcommand{\resitem}[1]{\item[{\color[RGB]{10,0,254}$\bullet$}] #1 \vspace{-2pt}}
+\newcommand{\resheading}[1]{{\small \colorbox{mygrey}{\begin{minipage}{0.99\textwidth}{\textbf{#1 \vphantom{p\^{E}}}}\end{minipage}}}}
+\newcommand{\ressubheading}[3]{
+\begin{tabular*}{8.62in}{l @{\extracolsep{\fill}} r}
+	\textsc{{\textbf{#1}}} & \textsc{\textit{[#2]}} \\
+\end{tabular*}\vspace{-8pt}}
+
+
+\begin{document}
+\begin{table}
+    \begin{center}
+    {\Huge \scshape Ioannis Apergis} \\ \vspace{1pt}
+    Coventry, United Kingdom\\ \vspace{3pt}
+    \small \raisebox{-0.1\height}\faPhone\ +30 6971812476 ~ \href{mailto:yourmail@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{g.aperghc@gmail.com}} ~ 
+    \href{https://www.linkedin.com/in/iapergis2401/}{\raisebox{-0.2\height}\faLinkedin\ \underline{I.Apergis}}  ~
+    \href{https://github.com/AperpieGG}{\raisebox{-0.2\height}\faGithub\ \underline{AperPieGG}} ~   \href{https://warwick.ac.uk/fac/sci/physics/research/astro/people/ioannisapergis/}{\raisebox{-0.2\height}\faGlobe\ \underline{Warwick}}       
+    \vspace{-8pt}
+\end{center}
+\end{table}    
+
+\setlength{\tabcolsep}{15pt} % decrease the value if the content is 
+
+%%% SHORT SUMMARY %%%
+
+%%%% SCHOLASTIC ACHIEVEMENTS %%%%
+% \section*{{\LARGE \color{myblue}Scholastic Achievements}\xfilll[0pt]{0.5pt}}
+% \vspace{-15pt}
+% \vspace{1.5mm}
+
+% \begin{itemize}[itemsep = -0.70 mm, leftmargin=*]
+% \item[{\color[RGB]{10,0,254}$\bullet$}] \noindent Pursuing a \textbf{Minor} in Industrial Design Center(IDC)                         
+% \item[{\color[RGB]{10,0,254}$\bullet$}] \noindent Ranked in the top \textbf{3 \%} among \textbf{0.2 million} candidates in JEE Advanced 2017 \hfill {\ \small [April'17]}
+% \item[{\color[RGB]{10,0,254}$\bullet$}] \noindent Ranked in the top \textbf{1 \%} among \textbf{1.5 million} candidates in JEE Mains 2017 \hfill {\ \small [June'17]}
+% \item[{\color[RGB]{10,0,254}$\bullet$}] \noindent Secured the \textbf{1st position} in intra-state Talent Search Contest among \textbf{0.1 million} students conducted by \textbf{Navodaya Educational Society And Welfare Committee, Bhopal}\hfill {\ \small [July'15]} 
+% \item[{\color[RGB]{10,0,254}$\bullet$}] \noindent Awarded \textbf{SBI Scholar} Fellowship which is given to meritorious children of SBI staff \hfill {\ \small [July'17]}
+
+% \end{itemize}
+% \vspace{-15pt}
+% \vspace{-7pt}
+
+%%%%%%%%%%%%%%%%%%%%%%%% EDUCATION %%%%%%%%%%%%%%%%%%%%%%%%
+\section*{{\LARGE \color{myblue}Education}\xfilll[0pt]{0.5pt}}
+\vspace{-15pt}
+\vspace{1.5mm}
+
+%\begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+\textbf{\large PhD student}| \normalfont{University of Warwick} \hfill { \small Oct 2022 -- Oct 2026}
+\\[-0.5cm]
+ 
+	\begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+	\item[{\color[RGB]{10,0,254}$\bullet$}] \noindent Industrial CASE PhD student at Astronomy and Astrophysics Group
+        \end{itemize} 
+\textbf{\large Master of Physics honours}| \normalfont{University of Kent} \hfill { \small Sep 2018 -- Jul 2022}
+\\[-0.5cm]
+
+	\begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+	\item[{\color[RGB]{10,0,254}$\bullet$}] \noindent First Class Honours in  Astronomy Space Science and Astrophysics
+        \end{itemize} 
+\vspace{-15pt}
+
+%%%%%%%%%%%%%%%%%%%%%%%%% PROJECTS %%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{{ \LARGE \color{myblue} Projects}\xfilll[0pt]{0.5pt}}
+\vspace{-13pt}
+\vspace{1.5mm}
+
+\textbf{\large Precise Photometry with the new generation sCMOS Camera}| \normalfont{PhD} \hfill {\ \small Ongoing}
+\\[0.05cm]
+\emph{University of Warwick} \hfill {\ \small (Expected by Oct '26)} 
+\\[-0.6cm]
+\begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+    \item[{\color[RGB]{10,0,254}$\bullet$}] \noindent Understanding and characterise the new sCMOS camera. Developing and executing a control system code in python, record and analyse data. Observations of exoplanets using the
+    NGTS telescopes at Paranal observatory using sCMOS and CCDs cameras. 
+\end{itemize} 	
+\textbf{\large Direct detection of Asteroidal YORP effect in 1950 DA}| \normalfont{MPhys} \hfill {\ \small Sep 2021 -- July 2022}
+\\[0.05cm]
+\emph{University of Kent}  
+\\[-0.6cm]
+\begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+    \item[{\color[RGB]{10,0,254}$\bullet$}] \noindent Modelling small Solar
+    system bodies and analyse their physical properties and state. Photometric analysis of the asteroid and data
+    reduction from CCDs from large observational facilities.
+\end{itemize} 	
+
+ 
+%%%%%%%%%%%%%%%%%%%%%%%% SKILLS %%%%%%%%%%%%%%%%%%%%%%%%
+\section*{{\LARGE \color{myblue}Technical Skills}\xfilll[0pt]{0.5pt}}
+
+\vspace{-22pt}
+\setlength{\tabcolsep}{9pt}
+\begin{table}[h]
+
+\begin{tabular}{lllll}
+
+\textbf{Programming Languages} & Python, Matlab \\ 
+\textbf{Astronomy software} &  IRAF, AIP4WIN, Aladin sky Atlas, SAOImageDS9 \\ 
+\textbf{Operating systems} & MacOS, Linux, Windows \\ 
+\textbf{Tools and Environments} & Git, GitHub, PyCharm, VSCode
+
+\end{tabular}
+\end{table}
+% \fi 
+
+\vspace{-20pt}
+% \fi 
+
+%%%%%%%%%%%%%%%%%%% PROFESSIONAL ACTIVITIES %%%%%%%%%%%%%%%%%%%%%%%
+\section*{{ \LARGE \color{myblue} Working Activities}\xfilll[0pt]{0.5pt}}
+\vspace{-13pt}
+\vspace{1.5mm}
+
+\textbf{\large Studentship Physicist}| \normalfont{Andor Technology, Belfast} \hfill {\ \small May 2023 -- August 2023}
+\\[-0.6cm]
+\begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+    \item[{\color[RGB]{10,0,254}$\bullet$}] \noindent Work with the R\&D team to optimise and improve technical aspects of the
+    camera. Also interact with Andor’s Engineering and Quality Control Team to learn and execute methods in effort to
+    the characterise the camera according to EMVA-1288 standards. The work continued online from Warwick. I intend to spent 9 months in total at Andor as part of the industrial CASE PhD.
+	\end{itemize} 		
+\textbf{\large Summer Student}| \normalfont{University of Kent, Canterbury} \hfill {\ \small June 2022 -- August 2022}
+\\[-0.6cm]
+\begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+    \item[{\color[RGB]{10,0,254}$\bullet$}] \noindent This research is a continuation of the master’s project. In this work, extra data of previous years of the asteroid
+    1950 DA was analysed. Also scanning for different pole solutions of the asteroid’s shape.
+\end{itemize} 	
+
+\vspace{-15pt}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%% PUBLICATIONS %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{{\LARGE \color{myblue}Publications}\xfilll[0pt]{0.5pt}}
+\vspace{-8pt}
+
+\textbf{\large{Lead Author}}
+\\[-0.6cm]
+\begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+    \item[{\color[RGB]{10,0,254}$\bullet$}] \noindent \textit{"Characterisation of the sCMOS Marana camera for high precision Photometry"}.  Work complete, draft paper in preparation.
+    \item[{\color[RGB]{10,0,254}$\bullet$}] \noindent \textit{"On-sky Precise Photometry with a fast readout sCMOS camera"}.  Work to be complete over the next 6 months.
+\end{itemize}
+\vspace{-2pt}
+\textbf{\large{Co-Author}}  
+\\[-0.6cm]
+\begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+    \item[{\color[RGB]{10,0,254}$\bullet$}] \noindent \textit{Henderson, B. et al. (2023),  "TOI-2490b- The most eccentric brown dwarf transiting in the brown dwarf desert"}, (in prep).
+    \item[{\color[RGB]{10,0,254}$\bullet$}] \noindent \textit{Hawthorn, F. et al. (2023), "TESS Duotransit Candidates from the Southern Ecliptic Hemisphere"}, (submitted in MNRAS).
+    \item[{\color[RGB]{10,0,254}$\bullet$}] \noindent \textit{Gill, S. et al. (2023), "TOI-2447b / NGTS-29b: a 69-day Saturn around a Solar analogue"} (submitted in MNRAS).
+    \item[{\color[RGB]{10,0,254}$\bullet$}] \noindent \textit{Anderson D. R. et al. (2023), "NGTS-11 c: a Neptune-mass planet in a transiting 12.8-day orbit interior to NGTS-11 b"} (submitted in A\&A).
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%% PROPOSALS %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section*{{\LARGE \color{myblue}Proposals}\xfilll[0pt]{0.5pt}}
+\vspace{-8pt}
+
+\textbf{\large{Co-Investigator}}
+\\[-0.6cm]
+\begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+    \item[{\color[RGB]{10,0,254}$\bullet$}] \noindent Anderson D. R. et al. (2023), 112.25TM: \textit{”Characterizing two multi-planet systems: TIC 193096383 and TIC 398986735"}.
+\end{itemize}
+
+
+%%%%%%%%%%%%%%%%%%%% CONFERENCES AND MEETINGS %%%%%%%%%%%%%%%%%%%%
+\section*{{\LARGE \color{myblue}Conferences and Meetings}\xfilll[0pt]{0.5pt}}
+\vspace{-15pt}
+\vspace{1.5mm}
+
+%\begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+\textbf{\large NGTS Consortium Meeting}| \normalfont{Queen's University Belfast} \hfill { \small April 2023}
+\\[-0.5cm]
+
+\begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+    \item[{\color[RGB]{10,0,254}$\bullet$}] \noindent Presented my work on the characterisation of the sCMOS camera
+\end{itemize} 
+\textbf{\large NGTS Consortium Meeting}| \normalfont{University of Warwick (Online)} \hfill { \small Sep 2023}
+\\[-0.5cm]
+
+\begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+    \item[{\color[RGB]{10,0,254}$\bullet$}] \noindent Presented my work and involvement with Andor
+\end{itemize} 
+\textbf{\large GNOSIS Annual Conference}| \normalfont{University of Warwick} \hfill { \small Nov 2022}
+\\[-0.5cm]
+
+\begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+    \item[{\color[RGB]{10,0,254}$\bullet$}] \noindent Space Sustainability for the Next Decade (and Beyond)
+\end{itemize} 
+\textbf{\large Epistemic Insight}| \normalfont{Canterbury Christ Church University} \hfill { \small July 2023}
+\\[-0.5cm]
+
+\begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+    \item[{\color[RGB]{10,0,254}$\bullet$}] \noindent Astronomy with AI Summer school
+\end{itemize} 
+\textbf{\large Writing Better Research Papers and Proposals}| \normalfont{Berlin (Online)} \hfill { \small Nov 2023}
+\\[-0.5cm]
+
+\begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+    \item[{\color[RGB]{10,0,254}$\bullet$}] \noindent Online Workshop on Writing better research papers and proposals
+\end{itemize}         
+\textbf{\large TESS Science Team Meeting}| \normalfont{MIT (Online)} \hfill { \small Nov 2022}
+\\[-0.5cm]
+
+\begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+    \item[{\color[RGB]{10,0,254}$\bullet$}] \noindent TESS Science group meeting about the technical aspects and the next steps of the mission
+\end{itemize}         
+\vspace{-15pt}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%% SEMINARS %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{{\LARGE \color{myblue}Seminars}\xfilll[0pt]{0.5pt}}
+\vspace{-8pt}
+
+\textbf{\large{Centre of Astrophysics and Planetary Science (CAPS)}}
+\\[-0.6cm]
+\begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+    \item[{\color[RGB]{10,0,254}$\bullet$}] \noindent Participating in wide range of seminars about astrophysics during my UG course.
+\end{itemize}
+\vspace{-2pt}
+\textbf{\large{Warwick Astronomy Seminars}}  
+\\[-0.6cm]
+\begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+    \item[{\color[RGB]{10,0,254}$\bullet$}] \noindent Astronomy seminars of specialists in the fields. 
+\end{itemize}
+\vspace{-2pt}
+\textbf{\large{Warwick Physics Colloquial}}  
+\\[-0.6cm]
+\begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+    \item[{\color[RGB]{10,0,254}$\bullet$}] Participate in a variety of broad area of physics seminars from high profile.
+    speakers.
+\end{itemize}
+\vspace{-2pt}
+\textbf{\large{Warwick Exoplanets Meeting group}}  
+\\[-0.6cm]
+\begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+    \item[{\color[RGB]{10,0,254}$\bullet$}] I gave a talk about the characterisation of sCMOS Marana camera and my work in Andor at Belfast.
+\end{itemize}
+\textbf{\large ToF and FMCW LiDARs}| \normalfont{London (Online)} \hfill { \small Nov 2023}
+\\[-0.5cm]
+
+\begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+    \item[{\color[RGB]{10,0,254}$\bullet$}] \noindent A SPIE.ONLINE webinar about ToF and FMCW LiDARs: a closer look at the principles of operation and technical challenges 
+\end{itemize}
+\textbf{\large Observing NEAs using telescopes located in South Africa}| \normalfont{South Aftica (Online)} \hfill { \small Nov 2023}
+\\[-0.5cm]
+
+\begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+    \item[{\color[RGB]{10,0,254}$\bullet$}] \noindent  Andor webinar about the follow-up characterisation of near-Earth asteroids (NEAs) using telescopes located in Sutherland, South Africa
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%% TEACHING %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{{\LARGE \color{myblue}Teaching and Demonstrating}\xfilll[0pt]{0.5pt}}
+\vspace{-15pt}
+\vspace{1.5mm}
+
+\begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+\item[{\color[RGB]{10,0,254}$\bullet$}] \noindent {\href{https://courses.warwick.ac.uk/modules/2022/PX283-30}\faLink } \textbf{PX283 Laboratory Demonstrator}: Demonstrate and assess A1-Simulations of Planetary Systems lab for $\mathrm{2^{nd}}$ year Physics and Astrophysics students. 
+\item[{\color[RGB]{10,0,254}$\bullet$}] \noindent {\href{https://courses.warwick.ac.uk/modules/2022/PX451-15}\faLink } \textbf{PX451 Laboratory Demonstrator}: Demonstrate and assess the $\mathrm{3^{rd}}$ year Astrophysics laboratory using The Marsh Observatory for astronomical techniques and data analysis. This includes observational scheduling and monitoring. 
+\end{itemize}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%% OUTREACH %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ \section*{{\LARGE \color{myblue}Extracurricular and Engagement}\xfilll[0pt]{0.5pt}}
+\vspace{-15pt}
+\vspace{1.5mm}
+\textbf{\large La Palma Observatory} \hfill {\ \small Nov 2023}
+\\[-0.6cm]
+\begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+    \item[{\color[RGB]{10,0,254}$\bullet$}] \noindent I took part in a technical mission to the telescopes at La Palma observatory to gain valuable insights into technical aspects of telescope operations. 
+\end{itemize} 
+\textbf{\large{GNOSIS Annual Conference}} \hfill {\ \small Nov 2022}
+\\[-0.6cm]
+\begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+    \item[{\color[RGB]{10,0,254}$\bullet$}] \noindent I had the chance to interact with
+    visiting schools to the university of Warwick and give astronomy talks to children as part of the Astronomy and
+    Astrophysics group.	
+\end{itemize}
+\textbf{\large{{\href{https://codingwithsophie.warwick.ac.uk/}\faLink } Coding With Sophie}} \hfill {\ \small Nov 2023}
+\\[-0.6cm]
+\begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+    \item[{\color[RGB]{10,0,254}$\bullet$}] \noindent An astrophysicist designed program introducing coding to kids.
+\end{itemize}
+ \textbf{\large{Warwick Astronomy Society}} \hfill {\ \small Nov 2023}
+\\[-0.6cm]
+\begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+    \item[{\color[RGB]{10,0,254}$\bullet$}] \noindent Gave a talk on Warwick's Astronomy Society.
+\end{itemize}
+ \textbf{\large{PLANCKS UK and IRELAND}} \hfill {\ \small Feb 2022}
+\\[-0.6cm]
+\begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+    \item[{\color[RGB]{10,0,254}$\bullet$}] \noindent Physics League Across Numerous Countries for Kick-Ass Students” is a
+    theoretical physics competition for UG. The competition consists of a series of physics problems, covering topics in physics.
+\end{itemize}
+\textbf{\large{Epistemic Insight}} \hfill {\ \small Jul 2023}
+\\[-0.6cm]
+\begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+    \item[{\color[RGB]{10,0,254}$\bullet$}] \noindent Gave an interview about the Astronomy With AI Summer school. 
+\end{itemize}
+\textbf{\large{First Aid at Work}} \hfill {\ \small Nov 2022 -- 2025}
+\\[-0.6cm]
+\begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+    \item[{\color[RGB]{10,0,254}$\bullet$}] \noindent  I have received a first aid certificate in First Aid at Work course under the Health Safety (First Aid) Regulations 1981 Including Defibrillator Training.
+\end{itemize}
+\textbf{\large{Royal Astronomical Society}} \hfill {\ \small Mar 2023}
+\\[-0.6cm]
+\begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+    \item[{\color[RGB]{10,0,254}$\bullet$}] \noindent I am a Fellow of the Royal Astronomical Society (FRAS).
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%% LANGUAGES %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{{\LARGE \color{myblue}Languages}\xfilll[0pt]{0.5pt}}
+\vspace{-15pt}
+\vspace{1.5mm}
+
+\begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+\item[{\color[RGB]{10,0,254}$\bullet$}] \noindent Greek (Native).
+\item[{\color[RGB]{10,0,254}$\bullet$}] \noindent English (IELTS).
+\end{itemize}
+
+\end{document}
